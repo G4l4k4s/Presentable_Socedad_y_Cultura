@@ -1,4 +1,4 @@
-import styles from './Views.module.css'
+import styles from '../styles/Views.module.css'
 
 const registros = [
   { id: '001', nombre: 'Ana Martínez',  categoria: 'Tipo A', estado: 'Completado' },

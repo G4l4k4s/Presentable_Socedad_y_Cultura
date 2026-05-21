@@ -1,5 +1,5 @@
 import { FileText, Plus, BarChart3 } from 'lucide-react'
-import styles from './Views.module.css'
+import styles from '../styles/Views.module.css'
 
 export default function Inicio({ onNavegar }) {
   const stats = [

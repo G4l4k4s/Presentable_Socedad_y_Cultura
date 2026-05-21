@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { LogIn, Mail, Lock } from 'lucide-react'
 import Dashboard from './Dashboard.jsx'
-import styles from './App.module.css'
+import styles from '../styles/App.module.css'
 
 export default function App() {
   const [autenticado, setAutenticado] = useState(false)

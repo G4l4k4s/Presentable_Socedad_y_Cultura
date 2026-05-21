@@ -1,5 +1,5 @@
 import { Home, ClipboardList, BookOpen, CreditCard, MessageCircle, ShieldCheck, Newspaper, HelpCircle, Headphones, ChevronDown, LogOut } from 'lucide-react'
-import styles from './Sidebar.module.css'
+import styles from '../styles/Sidebar.module.css'
 
 const navItems = [
   { id: 'inicio',           label: 'Inicio',                    Icon: Home },

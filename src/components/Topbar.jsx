@@ -1,8 +1,8 @@
 import { Bell, HelpCircle } from 'lucide-react'
-import styles from './Topbar.module.css'
+import styles from '../styles/Topbar.module.css'
 
 const titulos = {
-  inicio:            { h1: '¡Hola, María!',              sub: 'Resumen general de tu cuenta.' },
+  inicio:            { h1: '¡Hola, José!',              sub: 'Resumen general de tu cuenta.' },
   servicios:         { h1: 'Servicios disponibles',       sub: 'Selecciona un servicio para continuar.' },
   'nuevo-registro':  { h1: 'Nuevo registro',              sub: 'Completa el formulario para agregar un elemento.' },
   reportes:          { h1: 'Reportes',                    sub: 'Listado de registros recientes.' },

@@ -1,5 +1,5 @@
 import { Search, Folder, User, Settings } from 'lucide-react'
-import styles from './Views.module.css'
+import styles from '../styles/Views.module.css'
 
 export default function Servicios() {
   const items = [

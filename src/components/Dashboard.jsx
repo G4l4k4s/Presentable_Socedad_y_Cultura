@@ -6,7 +6,7 @@ import Inicio from './Inicio.jsx'
 import Servicios from './Servicios.jsx'
 import NuevoRegistro from './NuevoRegistro.jsx'
 import Reportes from './Reportes.jsx'
-import styles from './Dashboard.module.css'
+import styles from '../styles/Dashboard.module.css'
 
 export default function Dashboard({ onLogout }) {
   const [vistaActual, setVistaActual] = useState('cultura-digital')

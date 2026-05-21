@@ -1,5 +1,5 @@
 import { Shield, ArrowRight, Newspaper, Lock, UserX, Search, Smartphone, FileText, Play, Download, ExternalLink, MessageCircle, ChevronRight } from 'lucide-react'
-import styles from './CulturaDigital.module.css'
+import styles from '../styles/CulturaDigital.module.css'
 
 const consejos = [
   { Icon: Lock,       titulo: 'Usa contraseñas seguras',           desc: 'Combina letras, números y símbolos.' },
