@@ -1,0 +1,148 @@
+.loginBg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 60%, #40916c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.loginCard {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.loginHeader {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.loginIcon {
+  width: 56px;
+  height: 56px;
+  background: #2d6a4f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+
+.loginHeader h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.loginHeader p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.inputWrap {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.inputWrap input {
+  width: 100%;
+  padding: 11px 14px 11px 38px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.inputWrap input:focus {
+  border-color: #2d6a4f;
+}
+
+.loginExtras {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #555;
+  cursor: pointer;
+}
+
+.loginExtras a {
+  color: #2d6a4f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.loginBtn {
+  background: #2d6a4f;
+  color: #fff;
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.loginBtn:hover {
+  background: #1b4332;
+}
+
+.loginFooter {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-top: 20px;
+}
+
+.loginFooter a {
+  color: #2d6a4f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  margin-top: 24px;
+}
