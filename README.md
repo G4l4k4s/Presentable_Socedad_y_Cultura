@@ -103,7 +103,7 @@ Verás una salida similar a:
 
 Haz clic en el enlace `http://localhost:5173/` o cópialo en tu navegador.
 
-¡Listo! La aplicación está corriendo en vivo. 🎉
+¡Listo! La aplicación está corriendo en vivo.
 
 ---
 
@@ -117,14 +117,15 @@ Haz clic en el enlace `http://localhost:5173/` o cópialo en tu navegador.
 ---
 
 ## Comandos disponibles
+|-----------------------|---------------------------------------------------------|
+| Comando               | Descripción                                             |
+|-----------------------|---------------------------------------------------------|
+| `npm run dev`         | Inicia el servidor de desarrollo (modo local)           |
+| `npm run build`       | Genera la versión optimizada para producción en `/dist` |
+| `npm run preview`     | Previsualiza la versión de producción localmente        |
+| `npx vite --host 0.0.0.0 --port 5173`|para configurar puerto de carga el linux  |
+|---------------------------------------------------------------------------------|
 
-| Comando | Descripción |
-|---|---|
-| `npm run dev` | Inicia el servidor de desarrollo (modo local) |
-| `npm run build` | Genera la versión optimizada para producción en `/dist` |
-| `npm run preview` | Previsualiza la versión de producción localmente |
-
----
 
 ## Estructura del proyecto
 
@@ -168,16 +169,16 @@ udea-app/
 
 ## Solución de problemas frecuentes
 
-**❌ Error: `npm` no se reconoce como comando**
+**Error: `npm` no se reconoce como comando**
 → Node.js no está instalado. Descárgalo en [nodejs.org](https://nodejs.org) y reinicia la terminal.
 
-**❌ Error: `Cannot find module '...'`**
+**Error: `Cannot find module '...'`**
 → Ejecuta `npm install` de nuevo.
 
-**❌ El puerto 5173 ya está en uso**
+**El puerto 5173 ya está en uso**
 → Vite usará automáticamente el siguiente puerto disponible (5174, 5175…). Mira la terminal para ver cuál.
 
-**❌ La página se ve en blanco**
+**La página se ve en blanco**
 → Abre la consola del navegador (`F12 → Consola`) y revisa si hay errores en rojo.
 
 ---
@@ -188,8 +189,9 @@ En la terminal donde corre `npm run dev`, presiona:
 
 ```
 Ctrl + C
+
 ```
 
 ---
 
-*Proyecto educativo – UdeA Programa de Niños y Jóvenes – Medellín, Colombia*
+*Proyecto educativo – Tdea – Clase de Sociedad y Cultura Digital*
